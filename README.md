@@ -1,6 +1,6 @@
-## Todos List coding test
+# Todos List coding test
 
-# Junior tasks
+## Junior tasks
 
 * Add basic responsive styles
 * Get the todos from the server and show them on page
@@ -8,7 +8,7 @@
 * Add todos without refreshing the page
 
 
-# Senior tasks
+## Senior tasks
 
 * Add a sidebar that opens on clicking the “Open sidebar” element
 * Change color when clicking “Change theme” element for the following elements
