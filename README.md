@@ -1,11 +1,10 @@
-# Memory Game - Technical Test
+# Memory Game - Technical Test :black_joker:
 
 This is a technical test for a junior developer position. The goal of this test is to evaluate your knowledge and skills in HTML, CSS, and JavaScript.
 
 There are several versions of this test:
 - React
 - Vue
-
 Choose the version that you are most comfortable with and follow the instructions in the corresponding subfolder. If you are more comfortable with another framework, feel free to create a new project using that framework.
 
 ## Time Limit
