@@ -2,16 +2,6 @@
 
 This is a technical test for a junior developer position. The goal of this test is to evaluate your knowledge and skills in HTML, CSS, and JavaScript.
 
-There are several versions of this test:
-- React
-- Vue
-
-Choose the version that you are most comfortable with and follow the instructions in the corresponding subfolder. If you are more comfortable with another framework, feel free to create a new project using that framework.
-
-## Time Limit
-
-You have a maximum of 2 hours to complete this test. It is not expected that you will implement every feature within this time frame. Make choices on what to prioritize and be prepared to explain your decisions.
-
 ## Memory Game Application
 
 Regardless of the framework you choose, your application should include the following features:
@@ -21,6 +11,17 @@ Regardless of the framework you choose, your application should include the foll
 3. Compare the cards: If the user flips two cards and they are identical, they should stay visible. If not, the cards should be flipped back to their hidden side after a short delay.
 4. Game end: When all pairs of cards have been found, display a congratulatory message and the number of moves needed to complete the game.
 5. Reset button: The user should be able to reset the game and shuffle the cards again using a "Reset" button.
+
+## Instructions
+
+1. Fork this repo
+2. Chose framework you want to use : React, Vue or a personnal
+3. Implement the solution in your own public GitHub repository, and send us the link to the completed project.
+
+## Time Limit
+
+You have a maximum of 2 hours to complete this test. It is not expected that you will implement every feature within this time frame. Make choices on what to prioritize and be prepared to explain your decisions.
+
 
 ## Evaluation Criteria
 
