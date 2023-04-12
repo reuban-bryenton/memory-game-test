@@ -2,12 +2,12 @@ import React from 'react';
 
 const ResetButton = (props) => {
   const handleReset = () => {
-    /* Reset logic here */
+    props.reset();
   }
 
   return (
     <button className="reset-button" onClick={handleReset}>
-      {/* Reset button content here */}
+      Reset
     </button>
   );
 }
