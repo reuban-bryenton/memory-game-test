@@ -6,6 +6,7 @@ const GameBoard = (props) => {
   const [state, setState] = useState({
     open_cards: [],
     matched_cards: [],
+    moves: 0,
   });
 
   const checkMatched = () => {
@@ -26,6 +27,7 @@ const GameBoard = (props) => {
     setState({
       open_cards: [],
       matched_cards,
+      moves: state.moves + 1,
     });
   }
 
@@ -40,6 +42,7 @@ const GameBoard = (props) => {
     setState({
       open_cards,
       matched_cards,
+      moves: state.moves,
     });
     if (open_cards.length === 2) {
       setTimeout(checkMatched, 1000);
@@ -50,6 +53,7 @@ const GameBoard = (props) => {
     setState({
       open_cards: [],
       matched_cards: [],
+      moves: 0,
     });
   }
 
@@ -78,6 +82,7 @@ const GameBoard = (props) => {
       {
         (state.matched_cards.length === 16) ? <h2>🎉 You Win! 🎉</h2> : null
       }
+      <h3>Total moves: {state.moves}</h3>
       <ResetButton reset={handleReset} />
       <div className='card-container'>
       {
